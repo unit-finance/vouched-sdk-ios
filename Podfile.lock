@@ -1,0 +1,33 @@
+PODS:
+  - TensorFlowLiteC (2.7.0):
+    - TensorFlowLiteC/Core (= 2.7.0)
+  - TensorFlowLiteC/Core (2.7.0)
+  - TensorFlowLiteSwift (2.7.0):
+    - TensorFlowLiteSwift/Core (= 2.7.0)
+  - TensorFlowLiteSwift/Core (2.7.0):
+    - TensorFlowLiteC (= 2.7.0)
+  - Vouched (1.4.0):
+    - Vouched/Core (= 1.4.0)
+  - Vouched/Barcode (1.4.0):
+    - Vouched/Core
+  - Vouched/Core (1.4.0):
+    - TensorFlowLiteSwift (= 2.7.0)
+
+DEPENDENCIES:
+  - Vouched (~> 1.4)
+  - Vouched/Barcode
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+    - Vouched
+
+SPEC CHECKSUMS:
+  TensorFlowLiteC: 50d75ed3640c15dcfbaf88ca4326297b445e00a1
+  TensorFlowLiteSwift: fe99748dc3d58ae08bd2ff38658e3ade7038670f
+  Vouched: dfd89dd5cc64bd4913ce97e249aa84ca01cf3d9e
+
+PODFILE CHECKSUM: 047337870f06462c72906d7a40c2e558401a4efc
+
+COCOAPODS: 1.11.3
